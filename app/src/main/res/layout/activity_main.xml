@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.practice.ayrash.projectone.MainActivity">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#CDDC39"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/black"
+        android:textStyle="italic"
+        android:text="Ayrash Technology Solution"
+        android:fontFamily="cursive"
+        android:textSize="24sp"
+        android:id="@+id/companyName"
+        />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="250dp"
+        android:layout_below="@id/companyName"
+        android:layout_margin="2dp"
+        android:src="@drawable/lab"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+        android:id="@+id/companyPix"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/companyPix"
+        android:id="@+id/companyService"
+        android:layout_margin="2dp"
+        android:textColor="@android:color/black"
+        android:layout_centerHorizontal="true"
+        android:text="At Ayrash Tech, We provide the following service:"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textColor="@android:color/black"
+        android:text="* Open Source Software for Managing Education System"
+        android:layout_below="@id/companyService"
+        android:id="@+id/firstService"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textColor="@android:color/black"
+        android:text="* Open Source Software for Reservation"
+        android:layout_below="@id/firstService"
+        android:id="@+id/secondService"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textColor="@android:color/black"
+        android:text="* Designing software for your need (Mobile, Web and Desktop)"
+        android:layout_below="@id/secondService"
+        android:id="@+id/thirdService"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"
+        android:textColor="@android:color/black"
+        android:text="We are available 24/7 via AyrashBot. You can hit us in any of the following channels:"
+        android:layout_below="@id/thirdService"
+        android:id="@+id/intro"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/handset"
+        android:textColor="@android:color/black"
+        android:text="   08038131659"
+        android:layout_margin="2dp"
+        android:layout_below="@id/intro"
+        android:id="@+id/phoneNumber"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:textColor="@android:color/black"
+        android:text=" info@ayrash.tech"
+        android:drawableLeft="@drawable/email"
+        android:layout_below="@id/phoneNumber"
+        android:id="@+id/mailAddress"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="  Minjibir, Kano State."
+        android:drawableLeft="@drawable/location"
+        android:layout_below="@id/mailAddress"
+        android:id="@+id/physicalAddress"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+        android:text="Follow us on:"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:drawableRight="@drawable/facebook"
+        android:drawableLeft="@drawable/twitter"
+        android:drawableTop="@drawable/github"
+        android:drawableBottom="@drawable/instagram"
+        android:id="@+id/followUs"
+        android:drawablePadding="4dp" />
+</RelativeLayout>

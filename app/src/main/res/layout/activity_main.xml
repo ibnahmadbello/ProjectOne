@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -20,7 +19,7 @@
         android:layout_centerHorizontal="true"
         android:textColor="@android:color/black"
         android:textStyle="italic"
-        android:text="Ayrash Technology Solution"
+        android:text="@string/company_name"
         android:fontFamily="cursive"
         android:textSize="24sp"
         android:id="@+id/companyName"
@@ -33,7 +32,8 @@
         android:src="@drawable/lab"
         android:adjustViewBounds="true"
         android:scaleType="fitXY"
-        android:id="@+id/companyPix"/>
+        android:id="@+id/companyPix"
+        android:contentDescription="@string/company_office_display" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -42,13 +42,13 @@
         android:layout_margin="2dp"
         android:textColor="@android:color/black"
         android:layout_centerHorizontal="true"
-        android:text="At Ayrash Tech, We provide the following service:"/>
+        android:text="@string/company_mission_to_do"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
         android:textColor="@android:color/black"
-        android:text="* Open Source Software for Managing Education System"
+        android:text="@string/company_mission_one"
         android:layout_below="@id/companyService"
         android:id="@+id/firstService"/>
     <TextView
@@ -56,7 +56,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
         android:textColor="@android:color/black"
-        android:text="* Open Source Software for Reservation"
+        android:text="@string/company_mission_two"
         android:layout_below="@id/firstService"
         android:id="@+id/secondService"/>
     <TextView
@@ -64,7 +64,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
         android:textColor="@android:color/black"
-        android:text="* Designing software for your need (Mobile, Web and Desktop)"
+        android:text="@string/company_mission_three"
         android:layout_below="@id/secondService"
         android:id="@+id/thirdService"/>
     <TextView
@@ -73,7 +73,7 @@
         android:layout_centerHorizontal="true"
         android:layout_margin="2dp"
         android:textColor="@android:color/black"
-        android:text="We are available 24/7 via AyrashBot. You can hit us in any of the following channels:"
+        android:text="@string/company_service_delivery"
         android:layout_below="@id/thirdService"
         android:id="@+id/intro"/>
     <TextView
@@ -81,7 +81,7 @@
         android:layout_height="wrap_content"
         android:drawableLeft="@drawable/handset"
         android:textColor="@android:color/black"
-        android:text="   08038131659"
+        android:text="@string/phone_number"
         android:layout_margin="2dp"
         android:layout_below="@id/intro"
         android:id="@+id/phoneNumber"/>
@@ -90,7 +90,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="2dp"
         android:textColor="@android:color/black"
-        android:text=" info@ayrash.tech"
+        android:text="@string/company_email"
         android:drawableLeft="@drawable/email"
         android:layout_below="@id/phoneNumber"
         android:id="@+id/mailAddress"/>
@@ -98,7 +98,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:text="  Minjibir, Kano State."
+        android:text="@string/company_address"
         android:drawableLeft="@drawable/location"
         android:layout_below="@id/mailAddress"
         android:id="@+id/physicalAddress"/>
@@ -106,7 +106,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@android:color/black"
-        android:text="Follow us on:"
+        android:text="@string/follow_me"
         android:gravity="center"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"

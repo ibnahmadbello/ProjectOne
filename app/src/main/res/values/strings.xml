@@ -1,3 +1,25 @@
 <resources>
     <string name="app_name">ProjectOne</string>
+
+    <string name="company_name">Ayrash Technology Solution</string>
+
+    <string name="company_office_display">Company Display</string>
+
+    <string name="company_mission_to_do">At Ayrash Tech, We provide the following service:</string>
+
+    <string name="company_mission_one">* Open Source Software for Managing Education System</string>
+
+    <string name="company_mission_two">* Open Source Software for Reservation</string>
+
+    <string name="company_mission_three">* Designing software for your need (Mobile, Web and Desktop)</string>
+
+    <string name="company_service_delivery">We are available 24/7 via AyrashBot. You can hit us in any of the following channels:</string>
+
+    <string name="phone_number">   08038131659</string>
+
+    <string name="company_email"> info@ayrash.tech</string>
+
+    <string name="company_address">  Minjibir, Kano State.</string>
+
+    <string name="follow_me">Follow us on:</string>
 </resources>
